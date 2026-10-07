@@ -1,0 +1,12 @@
+{
+  "name": "pi-ema-tts",
+  "version": "0.1.0",
+  "description": "Read the last assistant reply aloud with local EMA TTS. Off by default, toggle with /tts.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:ilkerulusoy/pi-ema-tts",
+  "keywords": ["pi-package", "pi-extension", "tts"],
+  "peerDependencies": { "@earendil-works/pi-coding-agent": ">=0.85.1 <1" },
+  "pi": { "extensions": ["./index.ts"] },
+  "main": "index.ts"
+}
